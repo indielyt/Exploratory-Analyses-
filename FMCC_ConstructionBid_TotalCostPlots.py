@@ -51,17 +51,6 @@ plt.show()
 # plt.xlabel('item',fontsize=8)
 
 print ("done")
-# 	
-
-
-
-
-
-# df_baker[item].plot(kind='scatter',x=1,y=3) # doesn't seem to work
-# 	# df_baker[item].plot(kind='scatter',x=i,y=3) # doesn't seem to work
-
-
-
 
 
 
