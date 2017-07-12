@@ -1,12 +1,14 @@
-###  Works! 7/6/2017
+###  Raster Hydrograph using pandas, numpy, and matplotlib.
+
+# Developed by Daniel Aragon <aragonecologic@gmail.com, daniel.aragon@mbakerintl.com>. Process adapted from workshop by 
+# Richard Koehler, PhD, PH with NOAA-NWS <richard.koehler@noaa.gov>
+
 import pandas as pd
 import numpy as np
 import csv
 import datetime
-
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
-
 
 
 # csv has been cleaned of usgs information, only the gage records are included here
@@ -39,8 +41,6 @@ for i in range(length):
 # drop original datatime objects now that day of year is defined
 df = df.drop([2],1)
 # print (df.tail())
-
-
 
 
 
