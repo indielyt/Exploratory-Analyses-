@@ -1,3 +1,3 @@
-# Exploratory_Data_Analysis
+# Exploratory Analysis of Construction Related Numbers
 
-Useful scripts for exploring data about water or anything else 
+Particularly relevant for construction bids and quantities
